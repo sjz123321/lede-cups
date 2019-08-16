@@ -1,4 +1,4 @@
-# This repository is no longer maintained
+# This repository is reboot by sjz
 
 git clone https://github.com/lede-project/source
 
@@ -15,3 +15,5 @@ make menuconfig (set Network->Printing->cups as "M")
 make
 
 copy /source/bin/packages/<arch>/cups/*.ipk to machine & opkg install 
+
+2019/8/16 update cups to v2.2.12
